@@ -23,7 +23,7 @@ ul {
 }
 footer {
 	background: #4D73BF;
-	color: #F0ACF5;
+	color: #fff;
 	margin-top: 30px;
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -58,5 +58,5 @@ footer {
 }
 .link {
 	text-decoration: none;
-	color: #F0ACF5;
+	color: #fff;
 }
