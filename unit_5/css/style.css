@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Josefin+Sans');
+* {
+	margin: 0px;
+}
+body {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color: #3B49A8;
+	background-image: url(file:///C:/Users/RogersD/Desktop/Test/images/paper.jpg);
+}
+div {
+	width: 150px;
+	height: 50px;
+	background: #000;
+}
+div p {
+	color: #fff;
+	padding: 1em 0;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 20px;
+}
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 72px;
+	padding-top: 20px;
+}
+ul {
+	list-style-type: none;
+}
+#setlist {
+	position: absolute;
+	top: 260px;
+	margin-left: 230px;
+}
+
+#menu {
+	position: absolute;
+	top: 460px;
+	margin-left: 230px;
+}
+#rsvp {
+	position: absolute;
+	top: 260px;
+	right: 230px;
+}
+
+#contactus {
+	position: absolute;
+	top: 460px;
+	right: 230px;
+}
+
+#header {
+	background: #000;
+	height: 100px;
+	margin: 0px;
+}
+#footer {
+	background: #000;
+	color: #fff;
+	margin-top: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.subhead {
+	font-weight: 900;
+}
+#slogan {
+	font-weight: bold;
+	font-size: 24px;
+	margin: 10px;
+}
+#logo {
+	display: inline;
+	padding: 25px 0;
+	width: 150px;
+	height: 50px;
+	border: 0px solid #0027B2;
+}
+#image {
+	display: inline-block;
+	background-image: url(file:///C:/Users/RogersD/Desktop/Test/images/paper.jpg);
+	width: 411px;
+	height: 100%;
+	margin: 100px 0px;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
