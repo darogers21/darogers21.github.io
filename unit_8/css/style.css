@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Oswald');
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+body {
+	background-color: #f2f2f2;
+	margin: 0;
+	padding-top: 0;
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+}
+#header {
+	display: block;
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+	height: 5em;
+	width: 100%;
+}
+#logo {
+	display: block;
+	margin: auto;
+	width: 150px;
+	height: 3em;
+	background: #fff;
+	text-align: center;
+}
+#logotext {
+	padding: 1em 0px;
+	margin-top: 0;
+}
+#logo:hover {
+	color: #fff;
+	background-color: #ff5050;
+}
+nav {
+	background-color: #000;
+	text-align:center;
+	padding-bottom: 2em;
+	margin: 0;
+}
+nav a {
+	text-decoration: none;
+	color: #000;
+	background-color: #fff;
+	padding: 0.8em 1.5em;
+	margin: 0.75em;
+}
+nav a:hover {
+	color: #fff;
+	background-color: #ff5050;
+}
+#subhead {
+	display: block;
+	font-family: 'Amatic SC', sans-serif;
+	font-size: 4em;
+	text-align: center;
+	color: #ff5050;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+#intro {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	color: #ff5050;
+	padding-bottom: 2em;
+}
+#imagesection {
+	background-color: #ff5050;
+	margin: 0 auto;
+	color:#fff;
+}
+#waterfallsection {
+	height: auto;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear:both;
+	height:0;
+}
+#waterfalldesccontainer {
+	float: left;
+	width: 50%;
+}
+#waterfalldesc {
+	padding: 2em 1.5em 0px 0px;
+	text-align: right;
+	max-width: 80%;
+	float: right;
+}
+#waterfallcontainer {
+	float:left;
+	width: 50%;
+	height: auto;
+}
+#waterfall {
+	width: 100%;
+}
+#mountainsection {
+	height: auto;
+}
+#mountaindesccontainer {
+	float: left;
+	width: 50%;
+}
+#mountaindesc {
+	padding: 2em 0px 0px 1.5em;
+	text-align: left;
+	max-width: 80%;
+	float: left;
+}
+#mountaincontainer {
+	float:left;
+	width: 50%;
+	height: auto;
+}
+#mountain {
+	width: 100%;
+}
+@media only screen and (max-width: 496px) {
+	nav {
+		padding: 0.5em 0 1.5em;
+		margin:0px;
+	}
+	nav a {
+		float: none;
+		display: block;	
+	}
+}
+@media only screen and (max-width: 840px) {
+	#waterfallcontainer {
+		float:none;
+		width: 100%;
+	}
+	#waterfalldesccontainer {
+		float: none;
+		width:100%;
+		padding: 0px;
+	}
+	#waterfalldesc {
+		text-align: center;
+		padding: 3em;
+		margin: 0em;
+		width:100%;
+	}
+	#mountaincontainer {
+		float:right;
+		width: 100%;
+	}
+	#mountaindesccontainer {
+		float: left;
+		width:100%;
+		padding: 0px;
+	}
+	#mountaindesc {
+		text-align: center;
+		padding: 3em;
+		margin: 0em;
+		width:100%;
+	}
+}
