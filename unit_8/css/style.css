@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Oswald');
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch|Roboto');
 * {
 	margin: 0px;
 	padding: 0px;
 	border: 0px;
 }
 body {
-	background-color: #f2f2f2;
+	background-color: #000000;
 	margin: 0;
 	padding-top: 0;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 }
 #header {
@@ -24,7 +24,7 @@ body {
 	margin: auto;
 	width: 150px;
 	height: 3em;
-	background: #fff;
+	background: #ffffff;
 	text-align: center;
 }
 #logotext {
@@ -33,7 +33,7 @@ body {
 }
 #logo:hover {
 	color: #fff;
-	background-color: #ff5050;
+	background-color: #550C0A;
 }
 nav {
 	background-color: #000;
@@ -50,33 +50,35 @@ nav a {
 }
 nav a:hover {
 	color: #fff;
-	background-color: #ff5050;
+	background-color: #550C0A;
 }
 #subhead {
 	display: block;
-	font-family: 'Amatic SC', sans-serif;
+	font-family: 'Chakra Petch', sans-serif;
 	font-size: 4em;
 	text-align: center;
-	color: #ff5050;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
+	color: #ffffff;
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 #intro {
 	display: block;
 	width: 80%;
 	margin: 0 auto;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 1.5em;
+	line-height: 2em;
 	text-align: center;
-	color: #ff5050;
-	padding-bottom: 2em;
+	color: #ffffff;
+	padding-bottom: 5em;
 }
 #imagesection {
-	background-color: #ff5050;
+	background-color: #EED7D6;
 	margin: 0 auto;
-	color:#fff;
+	color:#000000;
+	line-height: 1.5em;
 }
-#waterfallsection {
+#textrightsection {
 	height: auto;
 }
 .clearfix:after {
@@ -87,45 +89,59 @@ nav a:hover {
 	clear:both;
 	height:0;
 }
-#waterfalldesccontainer {
+#textrightdesccontainer {
 	float: left;
 	width: 50%;
 }
-#waterfalldesc {
+#textrightdesccontainer p {
 	padding: 2em 1.5em 0px 0px;
 	text-align: right;
 	max-width: 80%;
 	float: right;
 }
-#waterfallcontainer {
+#textrightcontainer {
 	float:left;
 	width: 50%;
 	height: auto;
 }
-#waterfall {
+#textrightcontainer img {
 	width: 100%;
 }
-#mountainsection {
+#textleftmobile div {
+	display: none;
+}
+#textleftsection {
 	height: auto;
 }
-#mountaindesccontainer {
+#textleftdesccontainer {
 	float: left;
 	width: 50%;
 }
-#mountaindesc {
+#textleftdesccontainer p {
 	padding: 2em 0px 0px 1.5em;
 	text-align: left;
 	max-width: 80%;
 	float: left;
 }
-#mountaincontainer {
+#textleftcontainer {
 	float:left;
 	width: 50%;
 	height: auto;
 }
-#mountain {
+#textleftcontainer img {
 	width: 100%;
 }
+#locations {
+	font-weight: bold;
+}
+#disclaimers {
+	color: #ffffff;
+	text-align: center;
+}
+#disclaimers p {
+	padding: 20px 40px;
+}
+
 @media only screen and (max-width: 496px) {
 	nav {
 		padding: 0.5em 0 1.5em;
@@ -137,34 +153,38 @@ nav a:hover {
 	}
 }
 @media only screen and (max-width: 840px) {
-	#waterfallcontainer {
+	#textrightcontainer {
 		float:none;
 		width: 100%;
 	}
-	#waterfalldesccontainer {
+	#textrightdesccontainer {
 		float: none;
 		width:100%;
 		padding: 0px;
 	}
-	#waterfalldesc {
+	#textrightdesccontainer p {
 		text-align: center;
 		padding: 3em;
 		margin: 0em;
-		width:100%;
+		max-width:100%;
 	}
-	#mountaincontainer {
-		float:right;
+	#textleftsection {
+		display:none;
+	}
+	#textleftmobile div {
+		display:block;
+		float:none;
 		width: 100%;
 	}
-	#mountaindesccontainer {
+	#textleftdesccontainer {
 		float: left;
 		width:100%;
 		padding: 0px;
 	}
-	#mountaindesc {
+	#textleftdesccontainer p {
 		text-align: center;
 		padding: 3em;
 		margin: 0em;
-		width:100%;
+		max-width:100%;
 	}
 }
