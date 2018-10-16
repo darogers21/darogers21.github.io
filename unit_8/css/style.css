@@ -68,7 +68,16 @@ nav a:hover {
 	line-height: 2em;
 	text-align: center;
 	color: #ffffff;
+	padding-bottom: 3em;
+}
+#kielys {
+	display: block;
+	margin: auto;
+	width: 300px;
 	padding-bottom: 5em;
+}
+#kielys img {
+	width: 75px;
 }
 #imagesection {
 	background-color: #EED7D6;
@@ -138,6 +147,15 @@ nav a:hover {
 }
 #disclaimers p {
 	padding: 20px 40px;
+}
+#kielysdisc {
+	display: block;
+	margin: auto;
+	width: 300px;
+	padding: 1em 0 1em 0;
+}
+#kielysdisc img {
+	width: 75px;
 }
 sup { 
     vertical-align: super;
