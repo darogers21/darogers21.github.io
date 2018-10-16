@@ -16,30 +16,28 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #000;
-	height: 5em;
+	height: auto;
 	width: 100%;
 }
 #logo {
 	display: block;
 	margin: auto;
-	width: 150px;
-	height: 3em;
-	background: #ffffff;
-	text-align: center;
+	width: 250px;
+	height: 250px;
+	background-image: url("images/blueys.png");
 }
-#logotext {
-	padding: 1em 0px;
-	margin-top: 0;
+#logo img {
+	width: 100%;
 }
-#logo:hover {
-	color: #fff;
-	background-color: #550C0A;
+#logo img:hover {
+	opacity: 0;
 }
 nav {
+	display: block;
 	background-color: #000;
 	text-align:center;
-	padding-bottom: 2em;
-	margin: 0;
+	margin: 2em 0 0 0; 
+	padding-bottom: 0em;
 }
 nav a {
 	text-decoration: none;
@@ -58,7 +56,7 @@ nav a:hover {
 	font-size: 4em;
 	text-align: center;
 	color: #ffffff;
-	margin-top: 1em;
+	margin-top: 2em;
 	margin-bottom: 1em;
 }
 #intro {
@@ -140,6 +138,10 @@ nav a:hover {
 }
 #disclaimers p {
 	padding: 20px 40px;
+}
+sup { 
+    vertical-align: super;
+    font-size: smaller;
 }
 
 @media only screen and (max-width: 496px) {
